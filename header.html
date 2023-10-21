@@ -3,76 +3,189 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
     <header>
-      <div>
-        <fieldset>
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </fieldset>
+      <div class="topnav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <input type="text" placeholder="Search.." />
+        </ul>
       </div>
     </header>
-    <div id="home">
-      <h1>Home &#128512; &#9995;</h1>
-      <fieldset>
-        <legend><b>My VoiceOver</b></legend>
-        <video controls>
-          <source src="./vedio/vdf.mp4 " type="video/mp4" width="100px" />
-        </video>
-        <video controls>
-          <source src="./vedio/vdv.mp4 " type="video/mp4" />
-        </video>
-        <video controls>
-          <source src="./vedio/vdr.mp4 " type="video/mp4" />
-        </video>
-      </fieldset>
+    <main>
+      <h1>
+        Jardin.com, le plaisir de jardiner commence ici ! &#128512; &#9995;
+      </h1>
+      <section>
+        <div class="home">
+          <div class="intro1">
+            <img src="./images/fleur1.webp" width="250px" />
+            <div class="head">
+              <h2>Dormeuse</h2>
+              <h2>£10,22</h2>
+            </div>
+            <button>Ajouter au pannier</button>
+          </div>
+          <div class="intro1">
+            <img src="./images//fleur2.webp" width="250px" />
+            <div class="head">
+              <h2>Arbre à papillons</h2>
+              <h2>£10,97</h2>
+            </div>
+            <button>Ajouter au pannier</button>
+          </div>
+          <div class="intro1">
+            <img src="./images/fleur3.webp" width="250px" />
+            <div class="head">
+              <h2>Préle japonnaise</h2>
+              <h2>£13,26</h2>
+            </div>
+            <button>Ajouter au pannier</button>
+          </div>
+          <div class="intro1">
+            <img src="./images/fleur4.webp" width="250px" />
+            <div class="head">
+              <h2>Tulips</h2>
+              <h2>£5,97</h2>
+            </div>
+            <button>Ajouter au pannier</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div>
+      <h2>Jardinerie en Ligne</h2>
+      <p>
+        Jardinerie Koeman est votre jardinerie en ligne pour les bulbes de
+        fleurs, les semences, les plantes et les outils de jardin ! Jardinerie
+        Koeman, la jardinerie en ligne la plus moderne des Pays-Bas !
+        Laissez-vous inspirer par notre vaste assortiment de bulbes de fleurs,
+        de semences de jardin et de plantes vivaces. Découvrez aussi notre
+        outillage de jardin de grande qualité (Gardena, Burgon & Ball, Haws,
+        Rostaing) et les prix sacrifiés de nos accessoires pour animaux. Bref :
+        Pour acheter rapidement, simplement et en toute sécurité vos accessoires
+        de jardin, vous avez frappé à la bonne porte de notre jardinerie en
+        ligne ! Le tout est livré rapidement et facilement chez vous !
+      </p>
     </div>
-    <div id="about">
-      <h1>About</h1>
-      <fieldset>
-        <img src="./images/main.jpg" width="200px" />
+    <section>
+      <div class="tulips">
+        <img src="./images/tulips.jpeg" width="275px" height="300" />
+        <div class="text">
+          <p>
+            Bien que les tulipes ne fleurissent pas encore, c’est le moment de
+            les acheter et de les planter déjà. Les tulipes sont disponibles à
+            partir de la mi-août, dans toutes les couleurs et variétés. Elles
+            égayent le jardin au printemps ! En janvier, les feuilles vertes
+            apparaissent déjà, redonnant vie à votre jardin. En avril, vous
+            pouvez profiter des magnifiques tulipes qui fleurissent. Vous voulez
+            aussi au printemps de belles tulipes en fleurs dans votre jardin ?
+          </p>
+          <button class="btn">Bulbes tulips</button>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="holder">
+        <img src="./images/tuplis2.jpeg" width="275px" height="300" />
+        <div class="text1">
+          <p>
+            Bien que les tulipes ne fleurissent pas encore, c’est le moment de
+            les acheter et de les planter déjà. Les tulipes sont disponibles à
+            partir de la mi-août, dans toutes les couleurs et variétés. Elles
+            égayent le jardin au printemps ! En janvier, les feuilles vertes
+            apparaissent déjà, redonnant vie à votre jardin. En avril, vous
+            pouvez profiter des magnifiques tulipes qui fleurissent. Vous voulez
+            aussi au printemps de belles tulipes en fleurs dans votre jardin ?
+          </p>
+          <button class="btn1">Bulbes à Fleurs</button>
+        </div>
+      </div>
+    </section>
+<div class="about">
+  <div id="about">
+      <h1>About  &#128512; &#9995;</h1>
+<h3>Must-haves cette saison!</h3>
+      </div>
+</div>
+<section>
+  <div class="rose">
+    <div class="product">
+      <img src="./images/rose4.webp" width="250px" height="250px" />
+    <div>
+      <p>
+        Anemone splendens-Anemone du jabon
+      </p>
+      <h2>4,99£
+      </h2>
+      <button class="bt">Au panier</button>
+    </div>
+    </div>
+    <div class="product">
+      <img src="./images/rose1.webp" width="250px" height="250px" />
+    <div>
+      <p>
+        Anemone splendens-Anemone du jabon
+      </p>
+      <h2>4,99£
+      </h2>
+      <button class="bt">Au panier</button>
+    </div>
+    </div>
+   <div class="product">
+      <img src="./images/rose2.webp" width="250px" height="250px" />
+    <div>
+      <p>
+        Anemone splendens-Anemone du jabon
+      </p>
+      <h2>4,99£
+      </h2>
+      <button class="bt">Au panier</button>
+    </div>
+    </div>
+    <div class="product">
+      <img src="./images/rose3.webp" width="250px" height="250px" />
+    <div>
+      <p>
+        Anemone splendens-Anemone du jabon
+      </p>
+      <h2>4,99£
+      </h2>
+      <button class="bt">Au panier</button>
+    </div>
+    </div>
+  </div>
+</section>
+    
+     
 
-        <img src="./images/main3.jpg" width="400px" />
-
-        <img src="./images/main4.jpeg" width="400px" />
-
-        <img src="./images/main2.jpeg" width="200px" />
-      </fieldset>
+        <section>
+          <div></div>
+        </section>
+      
     </div>
     <div id="contact">
       <h1>Contact</h1>
-      <form>
-        <fieldset>
-          <legend><b>Contact Me</b></legend>
-          <div>
+      <form class="form">
+          <div class="forms">
             <label> Name: </label>
             <input type="text" placeholder="foulen " />
-          </div>
           <br />
-          <div>
             <label> Lastname: </label>
             <input type="text" placeholder="ben foulen" />
-          </div>
-          <div>
             <br />
             <label> Email: </label>
             <input type="email" placeholder="foulenbenfoulen@gmail.com" />
-          </div>
           <br />
-          <div>
             <label> Tel: </label>
             <input type="tel" placeholder="xx xxx xxx" />
-          </div>
           <br />
-          <div>
             <button>CONTACT</button>
-          </div>
-        </fieldset>
       </form>
     </div>
     <footer>
